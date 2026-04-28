@@ -1,4 +1,4 @@
-import { useState, useEffect, useContext } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { ChevronDown, Info, Heart, ChevronLeft, Download } from 'lucide-react';
 import { dbService, TEAM_COLORS } from '../services/db';

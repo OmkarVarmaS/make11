@@ -60,7 +60,7 @@ export function useRoom(roomId: string, currentUserId?: string) {
       .on(
         'postgres_changes',
         { event: '*', schema: 'public', table: 'rooms', filter: `id=eq.${roomId}` },
-        (payload) => {
+        (payload: any) => {
           if (payload.new) {
             setRoom(payload.new as RoomData);
           }
@@ -69,7 +69,7 @@ export function useRoom(roomId: string, currentUserId?: string) {
       .on(
         'postgres_changes',
         { event: '*', schema: 'public', table: 'room_players', filter: `room_id=eq.${roomId}` },
-        (payload) => {
+        (payload: any) => {
           if (payload.eventType === 'INSERT') {
             setPlayers(prev => [...prev, payload.new as RoomPlayer]);
           } else if (payload.eventType === 'DELETE') {

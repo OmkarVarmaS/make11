@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../App';
-import { Info, Heart, ChevronRight, X, DollarSign, Trash2 } from 'lucide-react';
+import { Info, Heart, ChevronRight, X, DollarSign } from 'lucide-react';
 import CreateRoomModal from '../components/CreateRoomModal';
 import JoinRoomModal from '../components/JoinRoomModal';
 import UserMenu from '../components/UserMenu';
@@ -115,13 +115,6 @@ const Home = () => {
     }
   };
 
-  const handleDeleteRecord = async (code: string) => {
-    const confirm = window.confirm("Are you sure you want to delete this auction record? This action is permanent and should only be done if all participants agree.");
-    if (confirm) {
-      setCompletedRooms(prev => prev.filter(r => r.code !== code));
-      await dbService.deleteRoom(code);
-    }
-  };
 
   const handleModalCreate = async (roomData: any) => {
     // Ensure uniqueness

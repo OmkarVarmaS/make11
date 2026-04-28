@@ -625,13 +625,13 @@ export const dbService = {
       .limit(100);
     if (error) return [];
     return (data || [])
-      .filter(row => {
+      .filter((row: any) => {
         const r = row.data;
         const inParticipants = r.participants?.some((p: any) => p.userId === userId);
         const inLeft = r.leftParticipants?.some((p: any) => p.userId === userId);
         return inParticipants || inLeft;
       })
-      .map(row => ({ code: row.code, room: row.data }));
+      .map((row: any) => ({ code: row.code, room: row.data }));
   },
   /**
    * Upload / accumulate fantasy points for players in a room.

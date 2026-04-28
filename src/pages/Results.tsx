@@ -1,9 +1,8 @@
 import { useState, useEffect, useContext } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ChevronDown, Info, Heart, ChevronLeft, Upload, X, Download } from 'lucide-react';
+import { ChevronDown, Info, Heart, ChevronLeft, Download } from 'lucide-react';
 import { dbService, TEAM_COLORS } from '../services/db';
 import { calculateTeamScore, getPlayerMockPoints } from '../utils/score';
-import { AuthContext } from '../App';
 import PointsModal from '../components/PointsModal';
 
 const fmt = (l: number) => {
@@ -18,25 +17,17 @@ const fmtPurse = (l: number) => {
 const Results = () => {
   const { roomId } = useParams();
   const navigate = useNavigate();
-  const { user } = useContext(AuthContext);
-  const myUserId = user?.userId || localStorage.getItem('ipl_my_uid') || '';
+
+
   const [room, setRoom] = useState<any>(null);
   const [leaderboard, setLeaderboard] = useState<any[]>([]);
   const [awards, setAwards] = useState<any>({});
   const [showPoints, setShowPoints] = useState(false);
   const [expandedTeam, setExpandedTeam] = useState<string | null>(null);
   const [realPoints, setRealPoints] = useState<Record<string, number>>({});
-  const [showUpload, setShowUpload] = useState(false);
-  const [csvText, setCsvText] = useState('');
-  const [uploading, setUploading] = useState(false);
-  const [uploadMsg, setUploadMsg] = useState('');
 
-  const refreshPoints = async (r?: any) => {
-    if (!roomId) return;
-    const pts = await dbService.getPlayerPoints(roomId);
-    setRealPoints(pts);
-    rebuildLeaderboard(r || room, pts);
-  };
+
+
 
   const rebuildLeaderboard = (r: any, pointsMap: Record<string, number>) => {
     const participants = r.participants || [];
@@ -71,39 +62,6 @@ const Results = () => {
     setAwards({ mostExpensive, biggestBiddingWar, bestValue, budgetKing, allRounderCollector: arcTeam });
   };
 
-  const handleUpload = async () => {
-    if (!csvText.trim()) return;
-    setUploading(true);
-    setUploadMsg('');
-    try {
-      const incoming: Record<string, number> = {};
-      const lines = csvText.split(/\r?\n/);
-      for (const line of lines) {
-        if (!line.trim()) continue;
-        const parts = line.split(',');
-        if (parts.length >= 2) {
-          const name = parts[0].trim();
-          const pts = parseInt(parts[1].trim());
-          if (name && !isNaN(pts)) {
-            incoming[name] = pts;
-          }
-        }
-      }
-      if (Object.keys(incoming).length === 0) {
-        throw new Error('No valid Name,Points pairs found in input.');
-      }
-      await dbService.updatePlayerPoints(roomId!, incoming);
-      setCsvText('');
-      setShowUpload(false);
-      setUploadMsg('Scores uploaded successfully!');
-      setTimeout(() => setUploadMsg(''), 3000);
-      refreshPoints();
-    } catch (err: any) {
-      setUploadMsg(`Error: ${err.message}`);
-    } finally {
-      setUploading(false);
-    }
-  };
 
   useEffect(() => {
     const load = async () => {

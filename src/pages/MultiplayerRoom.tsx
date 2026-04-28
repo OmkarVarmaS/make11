@@ -9,7 +9,7 @@ export function MultiplayerRoom({ roomId }: { roomId: string }) {
   const [userId, setUserId] = useState('');
   
   useEffect(() => {
-    supabase.auth.getUser().then(({ data }) => {
+    supabase.auth.getUser().then(({ data }: any) => {
       if (data?.user) setUserId(data.user.id);
     });
   }, []);

@@ -73,14 +73,14 @@ export function useAuctionRound(roundId: string) {
       .on(
         'postgres_changes',
         { event: 'UPDATE', schema: 'public', table: 'auction_rounds', filter: `id=eq.${roundId}` },
-        (payload) => {
+        (payload: any) => {
           setRound(payload.new as AuctionRound);
         }
       )
       .on(
         'postgres_changes',
         { event: 'UPDATE', schema: 'public', table: 'auction_round_players', filter: `round_id=eq.${roundId}` },
-        (payload) => {
+        (payload: any) => {
           const updatedPlayer = payload.new as any;
           setPlayers(prev => ({
             ...prev,

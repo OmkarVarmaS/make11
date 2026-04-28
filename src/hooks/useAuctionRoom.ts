@@ -50,13 +50,13 @@ export function useAuctionRoom(roomId: string | undefined, allPlayers: Record<st
           table: 'rooms', 
           filter: `id=eq.${roomId}` 
         },
-        (payload) => {
+        (payload: any) => {
           if (isMounted) {
             setRoom(payload.new as Room);
           }
         }
       )
-      .subscribe((status) => {
+      .subscribe((status: string) => {
         if (status === 'SUBSCRIBED') {
           console.log(`Subscribed to room updates for ${roomId}`);
         }

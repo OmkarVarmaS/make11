@@ -1,0 +1,1906 @@
+[
+  {
+    "id": "1",
+    "name": "Shreyas Iyer",
+    "team": "PBKS",
+    "role": "BATTER",
+    "basePrice": 150,
+    "avatarInitials": "SI"
+  },
+  {
+    "id": "2",
+    "name": "Prabhsimran Singh",
+    "team": "PBKS",
+    "role": "WICKETKEEPER",
+    "basePrice": 50,
+    "avatarInitials": "PS"
+  },
+  {
+    "id": "3",
+    "name": "Shashank Singh",
+    "team": "PBKS",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "SS"
+  },
+  {
+    "id": "4",
+    "name": "Priyansh Arya",
+    "team": "PBKS",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "PA"
+  },
+  {
+    "id": "5",
+    "name": "Pyla Avinash",
+    "team": "PBKS",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "PA"
+  },
+  {
+    "id": "6",
+    "name": "Harnoor Singh",
+    "team": "PBKS",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "HS"
+  },
+  {
+    "id": "7",
+    "name": "Vishnu Vinod",
+    "team": "PBKS",
+    "role": "WICKETKEEPER",
+    "basePrice": 50,
+    "avatarInitials": "VV"
+  },
+  {
+    "id": "8",
+    "name": "Marcus Stoinis",
+    "team": "PBKS",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "MS"
+  },
+  {
+    "id": "9",
+    "name": "Marco Jansen",
+    "team": "PBKS",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "MJ"
+  },
+  {
+    "id": "10",
+    "name": "Nehal Wadhera",
+    "team": "PBKS",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "NW"
+  },
+  {
+    "id": "11",
+    "name": "Azmatullah Omarzai",
+    "team": "PBKS",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "AO"
+  },
+  {
+    "id": "12",
+    "name": "Musheer Khan",
+    "team": "PBKS",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "MK"
+  },
+  {
+    "id": "13",
+    "name": "Cooper Connolly",
+    "team": "PBKS",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "CC"
+  },
+  {
+    "id": "14",
+    "name": "Mitchell Owen",
+    "team": "PBKS",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "MO"
+  },
+  {
+    "id": "15",
+    "name": "Arshdeep Singh",
+    "team": "PBKS",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AS"
+  },
+  {
+    "id": "16",
+    "name": "Yuzvendra Chahal",
+    "team": "PBKS",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "YC"
+  },
+  {
+    "id": "17",
+    "name": "Lockie Ferguson",
+    "team": "PBKS",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "LF"
+  },
+  {
+    "id": "18",
+    "name": "Harpreet Brar",
+    "team": "PBKS",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "HB"
+  },
+  {
+    "id": "19",
+    "name": "Xavier Bartlett",
+    "team": "PBKS",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "XB"
+  },
+  {
+    "id": "20",
+    "name": "Yash Thakur",
+    "team": "PBKS",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "YT"
+  },
+  {
+    "id": "21",
+    "name": "Vijaykumar Vyshak",
+    "team": "PBKS",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "VV"
+  },
+  {
+    "id": "22",
+    "name": "Pravin Dubey",
+    "team": "PBKS",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "PD"
+  },
+  {
+    "id": "23",
+    "name": "Ben Dwarshuis",
+    "team": "PBKS",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "BD"
+  },
+  {
+    "id": "24",
+    "name": "Suryansh Shedge",
+    "team": "PBKS",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "SS"
+  },
+  {
+    "id": "25",
+    "name": "Vishal Nishad",
+    "team": "PBKS",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "VN"
+  },
+  {
+    "id": "26",
+    "name": "Dhruv Jurel",
+    "team": "RR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "DJ"
+  },
+  {
+    "id": "27",
+    "name": "Donovan Ferreira",
+    "team": "RR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "DF"
+  },
+  {
+    "id": "28",
+    "name": "Lhuan-dre Pretorius",
+    "team": "RR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "LP"
+  },
+  {
+    "id": "29",
+    "name": "Ravi Singh",
+    "team": "RR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "RS"
+  },
+  {
+    "id": "30",
+    "name": "Yashasvi Jaiswal",
+    "team": "RR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "YJ"
+  },
+  {
+    "id": "31",
+    "name": "Shimron Hetmyer",
+    "team": "RR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "SH"
+  },
+  {
+    "id": "32",
+    "name": "Shubham Dubey",
+    "team": "RR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "SD"
+  },
+  {
+    "id": "33",
+    "name": "Vaibhav Sooryavanshi",
+    "team": "RR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "VS"
+  },
+  {
+    "id": "34",
+    "name": "Aman Perala",
+    "team": "RR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "AP"
+  },
+  {
+    "id": "35",
+    "name": "Ravindra Jadeja",
+    "team": "RR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "RJ"
+  },
+  {
+    "id": "36",
+    "name": "Riyan Parag",
+    "team": "RR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "RP"
+  },
+  {
+    "id": "37",
+    "name": "Yudhvir Singh",
+    "team": "RR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "YS"
+  },
+  {
+    "id": "38",
+    "name": "Dasun Shanaka",
+    "team": "RR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "DS"
+  },
+  {
+    "id": "39",
+    "name": "Vignesh Puthur",
+    "team": "RR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "VP"
+  },
+  {
+    "id": "40",
+    "name": "Brijesh Sharma",
+    "team": "RR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "BS"
+  },
+  {
+    "id": "41",
+    "name": "Yash Punja",
+    "team": "RR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "YP"
+  },
+  {
+    "id": "42",
+    "name": "Riyan Parag",
+    "team": "RR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "RP"
+  },
+  {
+    "id": "43",
+    "name": "Jofra Archer",
+    "team": "RR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "JA"
+  },
+  {
+    "id": "44",
+    "name": "Sandeep Sharma",
+    "team": "RR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "SS"
+  },
+  {
+    "id": "45",
+    "name": "Ravi Bishnoi",
+    "team": "RR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "RB"
+  },
+  {
+    "id": "46",
+    "name": "Nandre Burger",
+    "team": "RR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "NB"
+  },
+  {
+    "id": "47",
+    "name": "Adam Milne",
+    "team": "RR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AM"
+  },
+  {
+    "id": "48",
+    "name": "Tushar Deshpande",
+    "team": "RR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "TD"
+  },
+  {
+    "id": "49",
+    "name": "Kuldeep Sen",
+    "team": "RR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "KS"
+  },
+  {
+    "id": "50",
+    "name": "Sushant Mishra",
+    "team": "RR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "SM"
+  },
+  {
+    "id": "51",
+    "name": "Kwena Maphaka",
+    "team": "RR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "KM"
+  },
+  {
+    "id": "52",
+    "name": "Rajat Patidar",
+    "team": "RCB",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "RP"
+  },
+  {
+    "id": "53",
+    "name": "Virat Kohli",
+    "team": "RCB",
+    "role": "BATTER",
+    "basePrice": 200,
+    "avatarInitials": "VK"
+  },
+  {
+    "id": "54",
+    "name": "Devdutt Padikkal",
+    "team": "RCB",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "DP"
+  },
+  {
+    "id": "55",
+    "name": "Phil Salt",
+    "team": "RCB",
+    "role": "WICKETKEEPER",
+    "basePrice": 50,
+    "avatarInitials": "PS"
+  },
+  {
+    "id": "56",
+    "name": "Jitesh Sharma",
+    "team": "RCB",
+    "role": "WICKETKEEPER",
+    "basePrice": 50,
+    "avatarInitials": "JS"
+  },
+  {
+    "id": "57",
+    "name": "Jordan Cox",
+    "team": "RCB",
+    "role": "WICKETKEEPER",
+    "basePrice": 50,
+    "avatarInitials": "JC"
+  },
+  {
+    "id": "58",
+    "name": "Krunal Pandya",
+    "team": "RCB",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "KP"
+  },
+  {
+    "id": "59",
+    "name": "Tim David",
+    "team": "RCB",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "TD"
+  },
+  {
+    "id": "60",
+    "name": "Romario Shepherd",
+    "team": "RCB",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "RS"
+  },
+  {
+    "id": "61",
+    "name": "Jacob Bethell",
+    "team": "RCB",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "JB"
+  },
+  {
+    "id": "62",
+    "name": "Venkatesh Iyer",
+    "team": "RCB",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "VI"
+  },
+  {
+    "id": "63",
+    "name": "Swapnil Singh",
+    "team": "RCB",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "SS"
+  },
+  {
+    "id": "64",
+    "name": "Vihaan Malhotra",
+    "team": "RCB",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "VM"
+  },
+  {
+    "id": "65",
+    "name": "Bhuvneshwar Kumar",
+    "team": "RCB",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "BK"
+  },
+  {
+    "id": "66",
+    "name": "Josh Hazlewood",
+    "team": "RCB",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "JH"
+  },
+  {
+    "id": "67",
+    "name": "Yash Dayal",
+    "team": "RCB",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "YD"
+  },
+  {
+    "id": "68",
+    "name": "Nuwan Thushara",
+    "team": "RCB",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "NT"
+  },
+  {
+    "id": "69",
+    "name": "Suyash Sharma",
+    "team": "RCB",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "SS"
+  },
+  {
+    "id": "70",
+    "name": "Jacob Duffy",
+    "team": "RCB",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "JD"
+  },
+  {
+    "id": "71",
+    "name": "Rasikh Salam",
+    "team": "RCB",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "RS"
+  },
+  {
+    "id": "72",
+    "name": "Abhinandan Singh",
+    "team": "RCB",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AS"
+  },
+  {
+    "id": "73",
+    "name": "Satvik Deswal",
+    "team": "RCB",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "SD"
+  },
+  {
+    "id": "74",
+    "name": "Vicky Ostwal",
+    "team": "RCB",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "VO"
+  },
+  {
+    "id": "75",
+    "name": "Mangesh Yadav",
+    "team": "RCB",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MY"
+  },
+  {
+    "id": "76",
+    "name": "Ruturaj Gaikwad",
+    "team": "CSK",
+    "role": "BATTER",
+    "basePrice": 150,
+    "avatarInitials": "RG"
+  },
+  {
+    "id": "77",
+    "name": "Dewald Brevis",
+    "team": "CSK",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "DB"
+  },
+  {
+    "id": "78",
+    "name": "Sarfaraz Khan",
+    "team": "CSK",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "SK"
+  },
+  {
+    "id": "79",
+    "name": "Kartik Sharma",
+    "team": "CSK",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "KS"
+  },
+  {
+    "id": "80",
+    "name": "MS Dhoni",
+    "team": "CSK",
+    "role": "BATTER",
+    "basePrice": 200,
+    "avatarInitials": "MD"
+  },
+  {
+    "id": "81",
+    "name": "Sanju Samson",
+    "team": "CSK",
+    "role": "BATTER",
+    "basePrice": 150,
+    "avatarInitials": "SS"
+  },
+  {
+    "id": "82",
+    "name": "Urvil Patel",
+    "team": "CSK",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "UP"
+  },
+  {
+    "id": "83",
+    "name": "Shivam Dube",
+    "team": "CSK",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "SD"
+  },
+  {
+    "id": "84",
+    "name": "Jamie Overton",
+    "team": "CSK",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "JO"
+  },
+  {
+    "id": "85",
+    "name": "Matthew Short",
+    "team": "CSK",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "MS"
+  },
+  {
+    "id": "86",
+    "name": "Aman Khan",
+    "team": "CSK",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "AK"
+  },
+  {
+    "id": "87",
+    "name": "Ramakrishna Ghosh",
+    "team": "CSK",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "RG"
+  },
+  {
+    "id": "88",
+    "name": "Prashant Veer",
+    "team": "CSK",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "PV"
+  },
+  {
+    "id": "89",
+    "name": "Zakary Foulkes",
+    "team": "CSK",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "ZF"
+  },
+  {
+    "id": "90",
+    "name": "Noor Ahmad",
+    "team": "CSK",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "NA"
+  },
+  {
+    "id": "91",
+    "name": "Khaleel Ahmed",
+    "team": "CSK",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "KA"
+  },
+  {
+    "id": "92",
+    "name": "Anshul Kamboj",
+    "team": "CSK",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AK"
+  },
+  {
+    "id": "93",
+    "name": "Mukesh Choudhary",
+    "team": "CSK",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MC"
+  },
+  {
+    "id": "94",
+    "name": "Shreyas Gopal",
+    "team": "CSK",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "SG"
+  },
+  {
+    "id": "95",
+    "name": "Gurjapneet Singh",
+    "team": "CSK",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "GS"
+  },
+  {
+    "id": "96",
+    "name": "Akeal Hosein",
+    "team": "CSK",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AH"
+  },
+  {
+    "id": "97",
+    "name": "Matt Henry",
+    "team": "CSK",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MH"
+  },
+  {
+    "id": "98",
+    "name": "Rahul Chahar",
+    "team": "CSK",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "RC"
+  },
+  {
+    "id": "99",
+    "name": "Spencer Johnson",
+    "team": "CSK",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "SJ"
+  },
+  {
+    "id": "100",
+    "name": "Akash Madhwal",
+    "team": "CSK",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AM"
+  },
+  {
+    "id": "101",
+    "name": "Heinrich Klaasen",
+    "team": "SRH",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "HK"
+  },
+  {
+    "id": "102",
+    "name": "Ishan Kishan",
+    "team": "SRH",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "IK"
+  },
+  {
+    "id": "103",
+    "name": "Salil Arora",
+    "team": "SRH",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "SA"
+  },
+  {
+    "id": "104",
+    "name": "Travis Head",
+    "team": "SRH",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "TH"
+  },
+  {
+    "id": "105",
+    "name": "Aniket Verma",
+    "team": "SRH",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "AV"
+  },
+  {
+    "id": "106",
+    "name": "Smaran Ravichandran",
+    "team": "SRH",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "SR"
+  },
+  {
+    "id": "107",
+    "name": "Abhishek Sharma",
+    "team": "SRH",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "AS"
+  },
+  {
+    "id": "108",
+    "name": "Nitish Kumar Reddy",
+    "team": "SRH",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "NR"
+  },
+  {
+    "id": "109",
+    "name": "Liam Livingstone",
+    "team": "SRH",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "LL"
+  },
+  {
+    "id": "110",
+    "name": "Kamindu Mendis",
+    "team": "SRH",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "KM"
+  },
+  {
+    "id": "111",
+    "name": "Harsh Dubey",
+    "team": "SRH",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "HD"
+  },
+  {
+    "id": "112",
+    "name": "Amit Kumar",
+    "team": "SRH",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "AK"
+  },
+  {
+    "id": "113",
+    "name": "Pat Cummins",
+    "team": "SRH",
+    "role": "BOWLER",
+    "basePrice": 200,
+    "avatarInitials": "PC"
+  },
+  {
+    "id": "114",
+    "name": "Harshal Patel",
+    "team": "SRH",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "HP"
+  },
+  {
+    "id": "115",
+    "name": "Eshan Malinga",
+    "team": "SRH",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "EM"
+  },
+  {
+    "id": "116",
+    "name": "Jaydev Unadkat",
+    "team": "SRH",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "JU"
+  },
+  {
+    "id": "117",
+    "name": "Shivam Mavi",
+    "team": "SRH",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "SM"
+  },
+  {
+    "id": "118",
+    "name": "Zeeshan Ansari",
+    "team": "SRH",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "ZA"
+  },
+  {
+    "id": "119",
+    "name": "Praful Hinge",
+    "team": "SRH",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "PH"
+  },
+  {
+    "id": "120",
+    "name": "Sakib Hussain",
+    "team": "SRH",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "SH"
+  },
+  {
+    "id": "121",
+    "name": "Krains Fuletra",
+    "team": "SRH",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "KF"
+  },
+  {
+    "id": "122",
+    "name": "Onkar Tarmale",
+    "team": "SRH",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "OT"
+  },
+  {
+    "id": "123",
+    "name": "Shubman Gill",
+    "team": "GT",
+    "role": "BATTER",
+    "basePrice": 150,
+    "avatarInitials": "SG"
+  },
+  {
+    "id": "124",
+    "name": "Jos Buttler",
+    "team": "GT",
+    "role": "WICKETKEEPER",
+    "basePrice": 50,
+    "avatarInitials": "JB"
+  },
+  {
+    "id": "125",
+    "name": "Sai Sudharsan",
+    "team": "GT",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "SS"
+  },
+  {
+    "id": "126",
+    "name": "Shahrukh Khan",
+    "team": "GT",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "SK"
+  },
+  {
+    "id": "127",
+    "name": "Kumar Kushagra",
+    "team": "GT",
+    "role": "WICKETKEEPER",
+    "basePrice": 50,
+    "avatarInitials": "KK"
+  },
+  {
+    "id": "128",
+    "name": "Anuj Rawat",
+    "team": "GT",
+    "role": "WICKETKEEPER",
+    "basePrice": 50,
+    "avatarInitials": "AR"
+  },
+  {
+    "id": "129",
+    "name": "Tom Banton",
+    "team": "GT",
+    "role": "WICKETKEEPER",
+    "basePrice": 50,
+    "avatarInitials": "TB"
+  },
+  {
+    "id": "130",
+    "name": "Glenn Phillips",
+    "team": "GT",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "GP"
+  },
+  {
+    "id": "131",
+    "name": "Rashid Khan",
+    "team": "GT",
+    "role": "ALL-ROUNDER",
+    "basePrice": 200,
+    "avatarInitials": "RK"
+  },
+  {
+    "id": "132",
+    "name": "Washington Sundar",
+    "team": "GT",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "WS"
+  },
+  {
+    "id": "133",
+    "name": "Rahul Tewatia",
+    "team": "GT",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "RT"
+  },
+  {
+    "id": "134",
+    "name": "Jason Holder",
+    "team": "GT",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "JH"
+  },
+  {
+    "id": "135",
+    "name": "Nishant Sindhu",
+    "team": "GT",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "NS"
+  },
+  {
+    "id": "136",
+    "name": "Manav Suthar",
+    "team": "GT",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "MS"
+  },
+  {
+    "id": "137",
+    "name": "Sai Kishore",
+    "team": "GT",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "SK"
+  },
+  {
+    "id": "138",
+    "name": "Mohammed Siraj",
+    "team": "GT",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MS"
+  },
+  {
+    "id": "139",
+    "name": "Kagiso Rabada",
+    "team": "GT",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "KR"
+  },
+  {
+    "id": "140",
+    "name": "Prasidh Krishna",
+    "team": "GT",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "PK"
+  },
+  {
+    "id": "141",
+    "name": "Ishant Sharma",
+    "team": "GT",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "IS"
+  },
+  {
+    "id": "142",
+    "name": "Arshad Khan",
+    "team": "GT",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AK"
+  },
+  {
+    "id": "143",
+    "name": "Gurnoor Brar",
+    "team": "GT",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "GB"
+  },
+  {
+    "id": "144",
+    "name": "Ashok Sharma",
+    "team": "GT",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AS"
+  },
+  {
+    "id": "145",
+    "name": "Luke Wood",
+    "team": "GT",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "LW"
+  },
+  {
+    "id": "146",
+    "name": "Prithvi Raj Yarra",
+    "team": "GT",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "PY"
+  },
+  {
+    "id": "147",
+    "name": "Rishabh Pant",
+    "team": "LSG",
+    "role": "BATTER",
+    "basePrice": 150,
+    "avatarInitials": "RP"
+  },
+  {
+    "id": "148",
+    "name": "Nicholas Pooran",
+    "team": "LSG",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "NP"
+  },
+  {
+    "id": "149",
+    "name": "Josh Inglis",
+    "team": "LSG",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "JI"
+  },
+  {
+    "id": "150",
+    "name": "Mukul Choudhary",
+    "team": "LSG",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "MC"
+  },
+  {
+    "id": "151",
+    "name": "Aiden Markram",
+    "team": "LSG",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "AM"
+  },
+  {
+    "id": "152",
+    "name": "Ayush Badoni",
+    "team": "LSG",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "AB"
+  },
+  {
+    "id": "153",
+    "name": "Abdul Samad",
+    "team": "LSG",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "AS"
+  },
+  {
+    "id": "154",
+    "name": "Matthew Breetzke",
+    "team": "LSG",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "MB"
+  },
+  {
+    "id": "155",
+    "name": "Himmat Singh",
+    "team": "LSG",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "HS"
+  },
+  {
+    "id": "156",
+    "name": "Akshat Raghuwanshi",
+    "team": "LSG",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "AR"
+  },
+  {
+    "id": "157",
+    "name": "Mitchell Marsh",
+    "team": "LSG",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "MM"
+  },
+  {
+    "id": "158",
+    "name": "Shahbaz Ahamad",
+    "team": "LSG",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "SA"
+  },
+  {
+    "id": "159",
+    "name": "Arshin Kulkarni",
+    "team": "LSG",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "AK"
+  },
+  {
+    "id": "160",
+    "name": "George Linde",
+    "team": "LSG",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "GL"
+  },
+  {
+    "id": "161",
+    "name": "Mohammed Shami",
+    "team": "LSG",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MS"
+  },
+  {
+    "id": "162",
+    "name": "Mayank Yadav",
+    "team": "LSG",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MY"
+  },
+  {
+    "id": "163",
+    "name": "Avesh Khan",
+    "team": "LSG",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AK"
+  },
+  {
+    "id": "164",
+    "name": "Mohsin Khan",
+    "team": "LSG",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MK"
+  },
+  {
+    "id": "165",
+    "name": "Arjun Tendulkar",
+    "team": "LSG",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AT"
+  },
+  {
+    "id": "166",
+    "name": "Manimaran Siddharth",
+    "team": "LSG",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MS"
+  },
+  {
+    "id": "167",
+    "name": "Prince Yadav",
+    "team": "LSG",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "PY"
+  },
+  {
+    "id": "168",
+    "name": "Anrich Nortje",
+    "team": "LSG",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AN"
+  },
+  {
+    "id": "169",
+    "name": "Akash Singh",
+    "team": "LSG",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AS"
+  },
+  {
+    "id": "170",
+    "name": "Digvesh Singh Rathi",
+    "team": "LSG",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "DR"
+  },
+  {
+    "id": "171",
+    "name": "Naman Tiwari",
+    "team": "LSG",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "NT"
+  },
+  {
+    "id": "172",
+    "name": "KL Rahul",
+    "team": "DC",
+    "role": "BATTER",
+    "basePrice": 200,
+    "avatarInitials": "KR"
+  },
+  {
+    "id": "173",
+    "name": "Tristan Stubbs",
+    "team": "DC",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "TS"
+  },
+  {
+    "id": "174",
+    "name": "Abishek Porel",
+    "team": "DC",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "AP"
+  },
+  {
+    "id": "175",
+    "name": "Ben Duckett",
+    "team": "DC",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "BD"
+  },
+  {
+    "id": "176",
+    "name": "David Miller",
+    "team": "DC",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "DM"
+  },
+  {
+    "id": "177",
+    "name": "Pathum Nissanka",
+    "team": "DC",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "PN"
+  },
+  {
+    "id": "178",
+    "name": "Prithvi Shaw",
+    "team": "DC",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "PS"
+  },
+  {
+    "id": "179",
+    "name": "Karun Nair",
+    "team": "DC",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "KN"
+  },
+  {
+    "id": "180",
+    "name": "Nitish Rana",
+    "team": "DC",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "NR"
+  },
+  {
+    "id": "181",
+    "name": "Sahil Parakh",
+    "team": "DC",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "SP"
+  },
+  {
+    "id": "182",
+    "name": "Axar Patel",
+    "team": "DC",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "AP"
+  },
+  {
+    "id": "183",
+    "name": "Sameer Rizvi",
+    "team": "DC",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "SR"
+  },
+  {
+    "id": "184",
+    "name": "Ashutosh Sharma",
+    "team": "DC",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "AS"
+  },
+  {
+    "id": "185",
+    "name": "Ajay Mandal",
+    "team": "DC",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "AM"
+  },
+  {
+    "id": "186",
+    "name": "Kuldeep Yadav",
+    "team": "DC",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "KY"
+  },
+  {
+    "id": "187",
+    "name": "Mitchell Starc",
+    "team": "DC",
+    "role": "BOWLER",
+    "basePrice": 150,
+    "avatarInitials": "MS"
+  },
+  {
+    "id": "188",
+    "name": "T Natarajan",
+    "team": "DC",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "TN"
+  },
+  {
+    "id": "189",
+    "name": "Mukesh Kumar",
+    "team": "DC",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MK"
+  },
+  {
+    "id": "190",
+    "name": "Dushmantha Chameera",
+    "team": "DC",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "DC"
+  },
+  {
+    "id": "191",
+    "name": "Lungi Ngidi",
+    "team": "DC",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "LN"
+  },
+  {
+    "id": "192",
+    "name": "Kyle Jamieson",
+    "team": "DC",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "KJ"
+  },
+  {
+    "id": "193",
+    "name": "Vipraj Nigam",
+    "team": "DC",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "VN"
+  },
+  {
+    "id": "194",
+    "name": "Auqib Nabi Dar",
+    "team": "DC",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AD"
+  },
+  {
+    "id": "195",
+    "name": "Tripurana Vijay",
+    "team": "DC",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "TV"
+  },
+  {
+    "id": "196",
+    "name": "Madhav Tiwari",
+    "team": "DC",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MT"
+  },
+  {
+    "id": "197",
+    "name": "Tim Seifert",
+    "team": "KKR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "TS"
+  },
+  {
+    "id": "198",
+    "name": "Tejasvi Singh",
+    "team": "KKR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "TS"
+  },
+  {
+    "id": "199",
+    "name": "Rinku Singh",
+    "team": "KKR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "RS"
+  },
+  {
+    "id": "200",
+    "name": "Manish Pandey",
+    "team": "KKR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "MP"
+  },
+  {
+    "id": "201",
+    "name": "Rovman Powell",
+    "team": "KKR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "RP"
+  },
+  {
+    "id": "202",
+    "name": "Rahul Tripathi",
+    "team": "KKR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "RT"
+  },
+  {
+    "id": "203",
+    "name": "Finn Allen",
+    "team": "KKR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "FA"
+  },
+  {
+    "id": "204",
+    "name": "Sarthak Ranjan",
+    "team": "KKR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "SR"
+  },
+  {
+    "id": "205",
+    "name": "Angkrish Raghuvanshi",
+    "team": "KKR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "AR"
+  },
+  {
+    "id": "206",
+    "name": "Ajinkya Rahane",
+    "team": "KKR",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "AR"
+  },
+  {
+    "id": "207",
+    "name": "Sunil Narine",
+    "team": "KKR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "SN"
+  },
+  {
+    "id": "208",
+    "name": "Cameron Green",
+    "team": "KKR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "CG"
+  },
+  {
+    "id": "209",
+    "name": "Rachin Ravindra",
+    "team": "KKR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "RR"
+  },
+  {
+    "id": "210",
+    "name": "Ramandeep Singh",
+    "team": "KKR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "RS"
+  },
+  {
+    "id": "211",
+    "name": "Anukul Roy",
+    "team": "KKR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "AR"
+  },
+  {
+    "id": "212",
+    "name": "Daksh Kamra",
+    "team": "KKR",
+    "role": "ALL-ROUNDER",
+    "basePrice": 50,
+    "avatarInitials": "DK"
+  },
+  {
+    "id": "213",
+    "name": "Varun Chakaravarthy",
+    "team": "KKR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "VC"
+  },
+  {
+    "id": "214",
+    "name": "Harshit Rana",
+    "team": "KKR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "HR"
+  },
+  {
+    "id": "215",
+    "name": "Vaibhav Arora",
+    "team": "KKR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "VA"
+  },
+  {
+    "id": "216",
+    "name": "Matheesha Pathirana",
+    "team": "KKR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MP"
+  },
+  {
+    "id": "217",
+    "name": "Umran Malik",
+    "team": "KKR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "UM"
+  },
+  {
+    "id": "218",
+    "name": "Blessing Muzarabani",
+    "team": "KKR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "BM"
+  },
+  {
+    "id": "219",
+    "name": "Kartik Tyagi",
+    "team": "KKR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "KT"
+  },
+  {
+    "id": "220",
+    "name": "Prashant Solanki",
+    "team": "KKR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "PS"
+  },
+  {
+    "id": "221",
+    "name": "Saurabh Dubey",
+    "team": "KKR",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "SD"
+  },
+  {
+    "id": "222",
+    "name": "Rohit Sharma",
+    "team": "MI",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "RS"
+  },
+  {
+    "id": "223",
+    "name": "Surya Kumar Yadav",
+    "team": "MI",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "SY"
+  },
+  {
+    "id": "224",
+    "name": "Robin Minz",
+    "team": "MI",
+    "role": "WICKETKEEPER",
+    "basePrice": 50,
+    "avatarInitials": "RM"
+  },
+  {
+    "id": "225",
+    "name": "Ryan Rickelton",
+    "team": "MI",
+    "role": "WICKETKEEPER",
+    "basePrice": 50,
+    "avatarInitials": "RR"
+  },
+  {
+    "id": "226",
+    "name": "Tilak Varma",
+    "team": "MI",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "TV"
+  },
+  {
+    "id": "227",
+    "name": "Trent Boult",
+    "team": "MI",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "TB"
+  },
+  {
+    "id": "228",
+    "name": "Jasprit Bumrah",
+    "team": "MI",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "JB"
+  },
+  {
+    "id": "229",
+    "name": "Deepak Chahar",
+    "team": "MI",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "DC"
+  },
+  {
+    "id": "230",
+    "name": "Ashwani Kumar",
+    "team": "MI",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AK"
+  },
+  {
+    "id": "231",
+    "name": "Raghu Sharma",
+    "team": "MI",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "RS"
+  },
+  {
+    "id": "232",
+    "name": "Allah Ghazanfar",
+    "team": "MI",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "AG"
+  },
+  {
+    "id": "233",
+    "name": "Mayank Markande",
+    "team": "MI",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MM"
+  },
+  {
+    "id": "234",
+    "name": "Sherfane Rutherford",
+    "team": "MI",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "SR"
+  },
+  {
+    "id": "235",
+    "name": "Quinton De Kock",
+    "team": "MI",
+    "role": "WICKETKEEPER",
+    "basePrice": 50,
+    "avatarInitials": "QK"
+  },
+  {
+    "id": "236",
+    "name": "Krish Bhagat",
+    "team": "MI",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "KB"
+  },
+  {
+    "id": "237",
+    "name": "Mohammad Izhar",
+    "team": "MI",
+    "role": "BOWLER",
+    "basePrice": 50,
+    "avatarInitials": "MI"
+  },
+  {
+    "id": "238",
+    "name": "Danish Malewar",
+    "team": "MI",
+    "role": "BATTER",
+    "basePrice": 50,
+    "avatarInitials": "DM"
+  }
+]

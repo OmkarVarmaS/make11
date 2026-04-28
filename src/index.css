@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* Unique "Cyber IPL" Palette */
+  --bg-primary: #020617; /* Very Deep Navy */
+  --bg-secondary: #0f172a; /* Slate Dark */
+  --bg-panel: rgba(30, 41, 59, 0.4); /* Glass Slate */
+  --bg-panel-hover: rgba(30, 41, 59, 0.7);
+  
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  
+  --accent-primary: #00f0ff; /* Cyber Neon Blue */
+  --accent-secondary: #b026ff; /* Neon Purple */
+  --accent-hover: #00c3ff;
+  --accent-dim: rgba(0, 240, 255, 0.15);
+  
+  --success: #10b981;
+  --danger: #ef4444;
+  --danger-dim: rgba(239, 68, 68, 0.15);
+  --warning: #f59e0b;
+
+  --border-color: rgba(148, 163, 184, 0.1);
+  --border-highlight: rgba(148, 163, 184, 0.25);
+
+  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+  
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  --shadow-glow: 0 0 25px rgba(0, 240, 255, 0.5);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-x: hidden;
+  /* Epic radial mesh background */
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(0, 240, 255, 0.12), transparent 45%),
+    radial-gradient(circle at 85% 30%, rgba(176, 38, 255, 0.12), transparent 45%);
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Base Panel Classes */
+.glass-panel {
+  background: var(--bg-panel);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+}
+
+.glass-panel:hover {
+  border-color: var(--border-highlight);
+  transition: border-color 0.3s ease;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: var(--radius-sm);  /* Use smaller radius from screenshot! */
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border: none;
+  font-family: var(--font-main);
+}
+
+.btn-primary {
+  background-color: var(--accent-primary);
+  color: #000000;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-hover);
+}
+
+.btn-secondary {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-danger {
+  background-color: var(--danger-dim);
+  color: var(--danger);
+}
+
+.btn-danger:hover {
+  background-color: var(--danger);
+  color: white;
+}
+
+/* Inputs */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.input-field {
+  background-color: transparent;
+  border: 1px solid var(--border-highlight);
+  padding: 0.875rem 1rem;
+  border-radius: var(--radius-sm);
+  color: white;
+  font-size: 1rem;
+  font-family: var(--font-main);
+  transition: border-color 0.2s ease;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #f8fafc 0%, #94a3b8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-accent-gradient {
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Layout Utilities */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 100%;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.space-y-4 > * + * {
+  margin-top: 1rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+/* Card */
+.card {
+  padding: 1.5rem;
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hover opacity helper */
+.hover-opacity:hover { opacity: 0.7; }
+.hover-white:hover   { color: white; }
+
+/* ── Emoji reaction float animation ── */
+@keyframes emojiFloat {
+  0%   { opacity: 0;   transform: translateY(0)   scale(0.6); }
+  15%  { opacity: 1;   transform: translateY(-15vh) scale(1.2); }
+  80%  { opacity: 0.9; transform: translateY(-70vh) scale(1);   }
+  100% { opacity: 0;   transform: translateY(-90vh) scale(0.8); }
+}
+
+.emoji-float {
+  position: fixed;
+  bottom: 80px;
+  font-size: 2.2rem;
+  pointer-events: none;
+  z-index: 500;
+  animation: emojiFloat 3.5s ease-out forwards;
+  user-select: none;
+}
+
+/* ════════════════════════════════════════════════════════════════════════════
+   MOBILE RESPONSIVE — Global
+   ════════════════════════════════════════════════════════════════════════════ */
+
+/* Touch-friendly tap targets */
+@media (max-width: 768px) {
+  /* ── Base ── */
+  body {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  .btn {
+    padding: 0.875rem 1.25rem;
+    font-size: 1rem;
+    min-height: 48px;
+  }
+
+  /* ── Container ── */
+  .container {
+    padding: 0 1rem;
+  }
+
+  /* ── Landing Page ── */
+  .landing-hero {
+    padding: 2rem 1rem !important;
+    min-height: 100svh !important;
+  }
+
+  .landing-features-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+    padding: 0 !important;
+  }
+
+  /* ── Auth Page ── */
+  .auth-container {
+    padding: 1.5rem 1rem !important;
+  }
+
+  /* ── Home Page ── */
+  .home-actions-row {
+    flex-direction: column !important;
+  }
+
+  .home-public-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* ── Lobby Page ── */
+  .lobby-settings-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1rem !important;
+  }
+
+  /* ── Auction Page — KEY: stacked layout ── */
+  .auction-main-content {
+    flex-direction: column !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    padding: 1rem !important;
+    gap: 1rem !important;
+    height: auto !important;
+  }
+
+  .auction-left-col {
+    flex: none !important;
+    width: 100% !important;
+  }
+
+  .auction-right-col {
+    width: 100% !important;
+  }
+
+  .auction-reactions-col {
+    flex-direction: row !important;
+    justify-content: center !important;
+    gap: 0.5rem !important;
+    padding: 0 !important;
+  }
+
+  .auction-header {
+    padding: 0.6rem 1rem !important;
+    gap: 0.5rem !important;
+    flex-wrap: wrap !important;
+  }
+
+  .auction-player-card {
+    padding: 1rem !important;
+  }
+
+  .auction-player-card-inner {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .auction-bid-price {
+    font-size: 3rem !important;
+  }
+
+  .auction-bid-buttons {
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
+  }
+
+  .auction-bid-buttons button {
+    flex: 1 1 calc(33% - 0.5rem) !important;
+    min-width: 80px !important;
+    padding: 0.75rem 0.5rem !important;
+    font-size: 0.85rem !important;
+  }
+
+  .auction-stats-row {
+    gap: 0.75rem !important;
+    flex-wrap: wrap !important;
+  }
+
+  /* Paused overlay fix */
+  .auction-paused-inner {
+    min-width: unset !important;
+    padding: 2rem !important;
+    width: 90vw !important;
+    max-width: 400px !important;
+  }
+
+  /* ── Results Page ── */
+  .results-leaderboard-row {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 0.75rem !important;
+  }
+
+  .results-awards-scroll {
+    flex-direction: column !important;
+    overflow-x: unset !important;
+  }
+
+  .results-awards-scroll > div {
+    min-width: unset !important;
+    width: 100% !important;
+  }
+
+  /* ── Round 2 Selection ── */
+  .r2-timer-banner {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+    text-align: center !important;
+  }
+
+  .r2-timer-banner > div {
+    margin: 0 !important;
+  }
+
+  /* ── Choose Players Modal ── */
+  .choose-players-header {
+    padding: 1.5rem 1rem 0 !important;
+  }
+
+  .choose-players-list {
+    padding: 0 1rem 6rem !important;
+  }
+
+  /* ── Points Modal ── */
+  .points-modal-inner {
+    padding: 1.5rem !important;
+    max-height: 90vh !important;
+  }
+
+  /* ── Modals (Create/Join) ── */
+  .modal-card {
+    padding: 1.5rem !important;
+    max-width: 100% !important;
+    border-radius: 16px !important;
+  }
+
+  /* ── UserMenu ── */
+  .usermenu-dropdown {
+    right: 0 !important;
+    left: auto !important;
+  }
+
+  /* ── Auction ended team cards ── */
+  .auction-ended-teams {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .auction-ended-team-card {
+    min-width: unset !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+/* ── Small phones ── */
+@media (max-width: 400px) {
+  .btn {
+    font-size: 0.9rem;
+  }
+
+  .auction-bid-price {
+    font-size: 2.5rem !important;
+  }
+
+  .auction-bid-buttons button {
+    flex: 1 1 calc(50% - 0.5rem) !important;
+  }
+}
+
+/* ── Tablet (769–1024) ── */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .auction-right-col {
+    width: 260px !important;
+  }
+
+  .auction-bid-price {
+    font-size: 4rem !important;
+  }
+
+  .home-public-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+/* ── Auction bottom bar on mobile ── */
+@media (max-width: 768px) {
+  /* Make bottom action bar full-width friendly */
+  .auction-bottom-bar {
+    padding: 0.75rem 1rem !important;
+  }
+
+  .auction-bottom-bar button {
+    min-height: 52px !important;
+    font-size: 1rem !important;
+  }
+
+  /* Lobby page full-width on mobile */
+  .lobby-page {
+    padding: 1rem 1rem 3rem !important;
+  }
+
+  /* Results page padding */
+  .results-page {
+    padding: 2rem 1rem !important;
+  }
+
+  /* Home page top padding */
+  .home-page {
+    padding: 0 1rem 3rem !important;
+  }
+
+  /* Participants list in lobby */
+  .lobby-participant-row {
+    padding: 0.875rem 1rem !important;
+  }
+}
+
+/* Custom Thin Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
+  box-shadow: 0 0 10px var(--accent-primary);
+}

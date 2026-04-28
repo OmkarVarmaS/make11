@@ -1,8 +1,8 @@
 import { createClient } from '@supabase/supabase-js';
 
-// Replace these variables with your actual Supabase project URL and anon/public key.
-const SUPABASE_URL = "https://odovkeromveftlkoxuck.supabase.co";
-const SUPABASE_PUBLIC_KEY = "sb_publishable_2xaWPquq_qbvMgmLpZEodQ_0EIkvKvw";
+// Using environment variables for Supabase configuration
+const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
+const SUPABASE_PUBLIC_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
 let supabaseInstance;
 try {
